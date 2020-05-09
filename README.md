@@ -20,7 +20,7 @@ For more information on the CONLL2003 dataset, please see: https://www.clips.uan
 
 The model is trained using the [Simple Transformers library](https://github.com/ThilinaRajapakse/simpletransformers) following the guidance provided in this very helpful [blog post](https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance ) written by Thilina Rajapakse, the Simple Transformers main creator.
 
-The Bert based model is trained using the parameters: 
+The Bert based model is trained using the following parameters: 
 
 `NERModel('bert', 'bert-base-cased', use_cuda=False, args={'learning_rate': 2e-5, 'overwrite_output_dir': True, 'reprocess_input_data': True})`
 
