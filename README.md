@@ -23,7 +23,7 @@ To understand the dataset the following charts are also created:
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
-![Entity Distribution] (https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
+![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
 
 
