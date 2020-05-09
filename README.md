@@ -4,7 +4,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 **Table of Contents**
 - [Overview of NER model](#Overview)
 - [Running NER model](#Running)
-- [More Resources & Discussion](#More)
+- [More resources & discussion](#More)
 
 # Overview
 
