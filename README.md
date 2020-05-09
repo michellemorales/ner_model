@@ -88,10 +88,11 @@ If all the dependencies are installed, the notebook should run succesfully.
 This NER model provides a great proof-of-concept for how to build a tagger. Some questions/thoughts:
 
 **1. What would you like to try next?**
-CONLL English is from the Reuters corpus, which is a collection of news stories. Because of the corpus does not span multiple domains (news, social media, emails,blog posts, etc.) it may cause the NER model to not generalize to new domains. Given our intended user for this model is our Data Broker client, we may want to re-consider retraining this with relevant domain data. As a first next step, I would like to evaluate its performane on a labeled dataset from a more informal domain, like Twitter.
+CONLL English is from the Reuters corpus, which is a collection of news stories. Because the corpus does not span multiple domains (news, social media, emails,blog posts, etc.) it may cause the NER model to not generalize to new domains. Given our intended user for this model is our Data Broker client, we may want to re-consider retraining this with relevant domain data. As a first next step, I would like to evaluate its performane on a labeled dataset from a more informal domain, like Twitter.
 
-**2. Once we gather out own annotated data, could we reuse this model or would we create a new one?
+**2. Once we gather out own annotated data, could we reuse this model or would we create a new one?**
+One possibility is to retrain a new model with the new data from scratch, using the same architecture. However, with a deep learning model such as the one leveraged, the more data the more likely performance will improve. Therefore, we could instead puruse a different approach where we leverage the existing model and we fine-tune it with our collected data, to help expand the model learning to our relevant domain.
 
 **3. We plan to expand our offering to multiple different langauges next year. Could we use a single model for multiple languages? Is there a way we could leverage our existing model for that?**
-CONLL2003 also includes German files, which should allow for the same approach using a different data source. However, that approach would require finding a goodamount of data in each new language, in order to try and attain the same performance. Instead, we could try a 
+CONLL2003 also includes German files, which should allow for the same approach using a different data source. However, that approach would require finding a good amount of data in each new language, in order to try and attain the same performance. Luckily, we do not need to train a new model for each language added, there exist approaches, similar to the one used in this model, that allow us to train one model that can be used across several languages. Specifically, the Multilingual BERT Zero-Shot Transfer models allow us to perform zero-shot transfer from one language to another. 
 
