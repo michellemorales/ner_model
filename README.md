@@ -30,15 +30,10 @@ This model results show a reasonable baseline for an initial model. Results are 
 
 | Metric  | Performance |
 | ------------- | ------------- |
-| eval_loss | Content Cell  |
-| precision  | Content Cell  |
-|recall|Performance|
-| f1_score | X|
-
-eval_loss': 2.4489634037017822,
- 'precision': 0.058823529411764705,
- 'recall': 0.36363636363636365,
- 'f1_score': 0.10126582278481011
+| eval_loss | 0.106 |
+| precision  | 0.893 |
+|recall| 0.909 |
+| f1_score | 0.900  |
  
 # Run-time
 
