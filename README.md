@@ -50,6 +50,7 @@ In order to the run the tagger, open up Terminal and type in this command, repla
 
 Do **not** forget to include quotes! The command will return the sentence tagged with the named entities, like so:
 
+![Docker Example](https://github.com/michellemorales/samsung_interview/tree/master/images)
 
 # More Resources & Discussion
 
