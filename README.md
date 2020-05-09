@@ -5,13 +5,13 @@ This repository contains the necessary
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
-- [Overview of NER tool built](##Overview)
+- [Overview of NER tool built](#Overview)
 - How to set-up NER tool
-- How to run tool
-- Additional analysis - Jupyter notebook included for addiontal exploratory work
+- [How to run tool](#Running)
+- [Additional analysis](#Additional Analysis) - Jupyter notebook included for addiontal exploratory work
 
-## Overview
-## Exploratory Analysis
+# Overview
+# Additional Analysis
 
 `Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
@@ -35,7 +35,7 @@ To understand the dataset the following charts are also created:
 
 
 ## Tool Overview
-## Getting Started
+# Running
 
 
 TODO
