@@ -56,7 +56,7 @@ Do **not** forget to include quotes! The command will return the sentence tagged
 
 ![Docker Example](https://github.com/michellemorales/samsung_interview/blob/master/images/Docker%20Container%20Example.png)
 
-Alternatively, we provide the Python script for loading and predicting using the trained model in the `ner_model/` directory. Simply change into that directory and run: `python run_ner.py "This is the sentence I want to tag with named entities."`. Make sure you have `simpletransformers` installed. 
+Alternatively, we provide the Python script for loading and predicting using the trained model in the `ner_model/` directory. Simply change into that directory and run: `python run_ner.py "This is the sentence I want to tag with named entities."`. Make sure you have `simpletransformers` library installed. 
 
 # More Resources & Discussion
 
