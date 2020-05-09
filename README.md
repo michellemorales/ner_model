@@ -1,7 +1,4 @@
 # Samsung Sentence NER Tagger
-
-This repository contains the necessary 
-
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
