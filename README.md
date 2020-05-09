@@ -8,7 +8,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 - [Overview of NER tool built](#Overview)
 - [How to set-up NER tool](#Set-up)
 - [How to run tool](#Running)
-- [Extra resources](#More resources)
+- [Extra resources](#More)
 
 # Overview
 
