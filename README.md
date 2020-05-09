@@ -12,16 +12,16 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 # Overview
 
-This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the 
-
-
-The model is trained on the CONLL2003 training dataset, validation and testing sets are used during evaluation.
+This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the CONLL2003 training dataset, validation and testing sets are used during evaluation.
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
 For an overivew of the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
-Performance on the test set is given below:
+The model is trained using the [Simple Transformers library]() following the guidance provided here: https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance 
+
+
+on the test set is given below:
 
 | Metric  | Performance |
 | ------------- | ------------- |
