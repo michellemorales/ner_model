@@ -1,4 +1,4 @@
-# Samsung Sentence NER (Named Entity Recognition) Tagger
+Sentence NER (Named Entity Recognition) Tagger
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
@@ -8,13 +8,13 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 # Overview
 
-This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the [CONLL2003 training dataset](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003), validation and testing sets are used during evaluation.
+This repository provides a NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the [CONLL2003 training dataset](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003), validation and testing sets are used during evaluation.
 
-![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
+![Dataset Overview](https://github.com/michellemorales/ner_model/blob/master/images/CONLL%20Dataset%20Overview.png)
 
 The CONLL2003 dataset is a corpus of news data, tagged with various information, including named entities. The following entities are included in the corpus, with the following distribution:
 
-![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/Entities%20Distribution.png)
+![Entity Distribution](https://github.com/michellemorales/ner_model/blob/master/images/Entities%20Distribution.png)
 
 For more information on the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
@@ -49,7 +49,7 @@ In order to the run the tagger, open up Terminal and type in this command, repla
 
 Do **not** forget to include quotes! The command will return the sentence tagged with the named entities, like so:
 
-![Docker Example](https://github.com/michellemorales/samsung_interview/blob/master/images/Docker%20Container%20Example.png)
+![Docker Example](https://github.com/michellemorales/ner_model/blob/master/images/Docker%20Container%20Example.png)
 
 Alternatively, we provide the Python script for loading and predicting using the trained model in the `ner_model/` directory. Simply change into that directory and run: `python run_ner.py "This is the sentence I want to tag with named entities."`. Make sure you have `simpletransformers` library installed. 
 
@@ -68,7 +68,7 @@ The notebook does the following:
 - Generates descriptive statistics on the data and visualizes them for easy interpretability 
 - Trains the Bert NER transformer model using the CONLL training data
 
-![Dataframe format](https://github.com/michellemorales/samsung_interview/blob/master/images/Dataframe%20Format.png)
+![Dataframe format](https://github.com/michellemorales/ner_model/blob/master/images/Dataframe%20Format.png)
 
 In order to run the analysis, you need to have all the dependencies installed:
 
