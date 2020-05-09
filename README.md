@@ -1,4 +1,4 @@
-# Samsung Sentence NER Tagger
+# Samsung Sentence NER (Named Entity Recognition) Tagger
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
@@ -12,7 +12,7 @@ This repository provides the Samsung Next NER Tagger! The tagger is provided in 
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
-The CONLL2003 dataset 
+The CONLL2003 dataset is a corpus of news data, tagged with various information, including named entities. 
 
 ![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
