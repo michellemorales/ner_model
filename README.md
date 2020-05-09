@@ -24,6 +24,8 @@ The Bert based model is trained using the following parameters:
 
 `NERModel('bert', 'bert-base-cased', use_cuda=False, args={'learning_rate': 2e-5, 'overwrite_output_dir': True, 'reprocess_input_data': True})`
 
+This model results show a reasonable baseline for an initial model. Results are shown in the table below:
+
 **Performance on the CONLL test set**
 
 | Metric  | Performance |
@@ -40,8 +42,10 @@ eval_loss': 2.4489634037017822,
  
 # Run-time
 
+To run this model on your machine, you only need to follow 3 simple steps:
+
 1. Install Docker: https://docs.docker.com/get-docker/
-2. Run 
+2. Pull the docker image: 
 3. Run docker container:
 
 In order to the run the tagger, open up Terminal and type in this command, replace the example sentence with your own:
