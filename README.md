@@ -4,7 +4,14 @@ This repository contains the necessary
 
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
-## Structure of this Repository
+**Table of Contents**
+- [Overview of NER tool built](##Overview)
+- How to set-up NER tool
+- How to run tool
+- Additional analysis - Jupyter notebook included for addiontal exploratory work
+
+## Overview
+## Exploratory Analysis
 
 `Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
@@ -13,7 +20,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 In order to run the analysis, you need to download the CONLL2003 data make sure to update `conll_data_path` to point to the correct directory on your machine:
 
-`conll_data_path = '[path_to_conll_folder]/CONLL2003/'`
+`conll_data_path = 'path_to_conll_folder/CONLL2003/'`
 
 If all the dependencies are installed, the notebook should run succesfully. The notebook includes a preprocessed dataframe to allow for further analyses. The dataframe has the following format:
 
