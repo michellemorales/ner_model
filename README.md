@@ -24,7 +24,7 @@ The Bert based model is trained using the following parameters:
 
 `NERModel('bert', 'bert-base-cased', use_cuda=False, args={'learning_rate': 2e-5, 'overwrite_output_dir': True, 'reprocess_input_data': True})`
 
-Performance on the CONLL test set is:
+**Performance on the CONLL test set**
 
 | Metric  | Performance |
 | ------------- | ------------- |
