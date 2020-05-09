@@ -45,6 +45,9 @@ eval_loss': 2.4489634037017822,
 
 1. Install Docker: https://docs.docker.com/get-docker/
 2. Run 
+3. Run docker container:
+
+`docker run ner-tagger "This is the sentence I want to tag with named entities."`
 
 # More Resources & Discussion
 
