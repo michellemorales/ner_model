@@ -12,11 +12,11 @@ This repository provides the Samsung Next NER Tagger! The tagger is provided in 
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
-The CONLL2003 dataset is a corpus of news data, tagged with various information, including named entities. 
+The CONLL2003 dataset is a corpus of news data, tagged with various information, including named entities. The following entities are included in the corpus, with the following distribution:
 
 ![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
-For an overivew of the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
+For more information on the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
 The model is trained using the [Simple Transformers library](https://github.com/ThilinaRajapakse/simpletransformers) following the guidance provided in this very helpful [blog post](https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance ) written by Thilina Rajapakse, the Simple Transformers main creator.
 
