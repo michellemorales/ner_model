@@ -11,9 +11,34 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 - [Additional analysis](#Additional Analysis) - Jupyter notebook included for addiontal exploratory work
 
 # Overview
+
+This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the 
+
+
+The model is trained on the CONLL2003 training dataset, validation and testing sets are used during evaluation.
+
+![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
+
+For an overivew of the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
+
+Performance on the test set is given below:
+
+| Metric  | Performance |
+| ------------- | ------------- |
+| eval_loss | Content Cell  |
+| precision  | Content Cell  |
+|recall|Performance|
+| f1_score | X|
+
+eval_loss': 2.4489634037017822,
+ 'precision': 0.058823529411764705,
+ 'recall': 0.36363636363636365,
+ 'f1_score': 0.10126582278481011
+ 
+ The tag
 # Set-up
-TODO
-- add requirements
+1. Install Docker:
+2. Run 
 # Run-time
 # Additional Analysis
 
@@ -32,7 +57,7 @@ If all the dependencies are installed, the notebook should run succesfully. The 
 
 To understand the dataset the following charts are also created:
 
-![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
+
 
 ![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
