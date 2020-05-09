@@ -1,4 +1,4 @@
-Sentence NER (Named Entity Recognition) Tagger
+# Sentence NER (Named Entity Recognition) Tagger
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
