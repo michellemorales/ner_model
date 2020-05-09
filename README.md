@@ -14,7 +14,7 @@ This repository provides the Samsung Next NER Tagger! The tagger is provided in 
 
 The CONLL2003 dataset is a corpus of news data, tagged with various information, including named entities. The following entities are included in the corpus, with the following distribution:
 
-![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
+![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/Entities%20Distribution.png)
 
 For more information on the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
