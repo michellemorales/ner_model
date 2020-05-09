@@ -44,7 +44,12 @@ eval_loss': 2.4489634037017822,
 2. Run 
 3. Run docker container:
 
+In order to the run the tagger, open up Terminal and type in this command, replace the example sentence with your own:
+
 `docker run ner-tagger "This is the sentence I want to tag with named entities."`
+
+Do **not** forget to include quotes! The command will return the sentence tagged with the named entities, like so:
+
 
 # More Resources & Discussion
 
