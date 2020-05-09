@@ -7,7 +7,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 **Table of Contents**
 - [Overview of NER model](#Overview)
 - [Running NER model](#Running)
-- [Extra resources and Discussion](#More)
+- [More Resources & Discussion](#More)
 
 # Overview
 
@@ -46,25 +46,30 @@ eval_loss': 2.4489634037017822,
 1. Install Docker: https://docs.docker.com/get-docker/
 2. Run 
 
-# More resources
+# More Resources & Discussion
 
-`Exploratory Analysis.ipynb` 
+The jupyter notebook that was used for training the model is included is also included in this repository. You can view it here:
+
+`Data Analysis and Development.ipynb`
+
+The notebook does the following:
+
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
-- Formats the data into a pandas dataframe, where each row is a sentence
+- Formats the data into a pandas dataframe, where each row is a sentence (format is given in a screenshot below)
 - Generates descriptive statistics on the data and visualizes them for easy interpretability 
-
-In order to run the analysis, you need to download the CONLL2003 data make sure to update `conll_data_path` to point to the correct directory on your machine:
-
-`conll_data_path = 'path_to_conll_folder/CONLL2003/'`
-
-If all the dependencies are installed, the notebook should run succesfully. The notebook includes a preprocessed dataframe to allow for further analyses. The dataframe has the following format:
+- Trains the Bert NER transformer model using the CONLL training data
 
 ![Dataframe format](https://github.com/michellemorales/samsung_interview/blob/master/images/Dataframe%20Format.png)
 
-To understand the dataset the following charts are also created:
+In order to run the analysis, you need to have all the dependencies installed:
 
+`pip install -r requirements.txt`
 
+Then, download the CONLL2003 data and make sure to update `conll_data_path` to point to the correct directory on your machine:
 
+`conll_data_path = 'path_to_conll_folder/CONLL2003/'`
+
+If all the dependencies are installed, the notebook should run succesfully. 
 
 
 CONLL2003 also includes German files, which should allow for the same approach using a different data source. 
