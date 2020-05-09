@@ -16,6 +16,10 @@ This repository provides the Samsung Next NER Tagger! The tagger is provided in 
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
+The CONLL2003 dataset 
+
+![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
+
 For an overivew of the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
 The model is trained using the [Simple Transformers library](https://github.com/ThilinaRajapakse/simpletransformers) following the guidance provided in this very helpful [blog post](https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance ) written by Thilina Rajapakse, the Simple Transformers main creator.
@@ -62,5 +66,5 @@ To understand the dataset the following charts are also created:
 
 
 
-![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
+
 
