@@ -18,10 +18,13 @@ This repository provides the Samsung Next NER Tagger! The tagger is provided in 
 
 For an overivew of the CONLL2003 dataset, please see: https://www.clips.uantwerpen.be/conll2003/ner/
 
-The model is trained using the [Simple Transformers library]() following the guidance provided here: https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance 
+The model is trained using the [Simple Transformers library](https://github.com/ThilinaRajapakse/simpletransformers) following the guidance provided in this very helpful [blog post](https://towardsdatascience.com/simple-transformers-named-entity-recognition-with-transformer-models-c04b9242a2a0Performance ) written by Thilina Rajapakse, the Simple Transformers main creator.
 
+The Bert based model is trained using the parameters: 
 
-on the test set is given below:
+`NERModel('bert', 'bert-base-cased', use_cuda=False, args={'learning_rate': 2e-5, 'overwrite_output_dir': True, 'reprocess_input_data': True})`
+
+Performance on the CONLL test set is:
 
 | Metric  | Performance |
 | ------------- | ------------- |
@@ -35,9 +38,9 @@ eval_loss': 2.4489634037017822,
  'recall': 0.36363636363636365,
  'f1_score': 0.10126582278481011
  
- The tag
+
 # Set-up
-1. Install Docker:
+1. Install Docker: https://docs.docker.com/get-docker/
 2. Run 
 # Run-time
 # More resources
