@@ -8,7 +8,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 - [Overview of NER tool built](#Overview)
 - [How to set-up NER tool](#Set-up)
 - [How to run tool](#Running)
-- [More resources](#More resources) - Jupyter notebook included for addiontal exploratory work
+- [Extra resources](#More resources)
 
 # Overview
 
