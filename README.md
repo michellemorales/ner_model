@@ -6,11 +6,15 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
 - [Overview of NER tool built](#Overview)
-- How to set-up NER tool
+- [How to set-up NER tool](#Set-up)
 - [How to run tool](#Running)
 - [Additional analysis](#Additional Analysis) - Jupyter notebook included for addiontal exploratory work
 
 # Overview
+# Set-up
+TODO
+- add requirements
+# Run-time
 # Additional Analysis
 
 `Exploratory Analysis.ipynb` 
@@ -32,11 +36,3 @@ To understand the dataset the following charts are also created:
 
 ![Entity Distribution](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
-
-
-## Tool Overview
-# Running
-
-
-TODO
-- add requirements
