@@ -8,7 +8,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 - [Overview of NER tool built](#Overview)
 - [How to set-up NER tool](#Set-up)
 - [How to run tool](#Running)
-- [Additional analysis](#Additional Analysis) - Jupyter notebook included for addiontal exploratory work
+- [More resources](#More resources) - Jupyter notebook included for addiontal exploratory work
 
 # Overview
 
@@ -40,7 +40,7 @@ eval_loss': 2.4489634037017822,
 1. Install Docker:
 2. Run 
 # Run-time
-# Additional Analysis
+# More resources
 
 `Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
