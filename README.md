@@ -19,10 +19,11 @@ If all the dependencies are installed, the notebook should run succesfully. The 
 
 ![Dataframe format](https://github.com/michellemorales/samsung_interview/blob/master/images/Dataframe%20Format.png)
 
+To understand the dataset the following charts are also created:
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
-![Entity Distribution (https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
+![Entity Distribution] (https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
 
 
