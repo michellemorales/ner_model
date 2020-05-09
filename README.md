@@ -15,7 +15,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 TODO
 - add requirements
 # Run-time
-## Additional Analysis
+# Additional Analysis
 
 `Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
