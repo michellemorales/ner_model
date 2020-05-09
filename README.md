@@ -5,10 +5,9 @@ This repository contains the necessary
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 **Table of Contents**
-- [Overview of NER tool built](#Overview)
-- [How to set-up NER tool](#Set-up)
-- [How to run tool](#Running)
-- [Extra resources](#More)
+- [Overview of NER model](#Overview)
+- [Running NER model](#Running)
+- [Extra resources and Discussion](#More)
 
 # Overview
 
@@ -42,11 +41,11 @@ eval_loss': 2.4489634037017822,
  'recall': 0.36363636363636365,
  'f1_score': 0.10126582278481011
  
+# Run-time
 
-# Set-up
 1. Install Docker: https://docs.docker.com/get-docker/
 2. Run 
-# Run-time
+
 # More resources
 
 `Exploratory Analysis.ipynb` 
