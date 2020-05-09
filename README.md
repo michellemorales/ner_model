@@ -1,24 +1,28 @@
-# ADD CREATIVE TOOL NAME HERE
+# Samsung Sentence NER Tagger
 
-XXX tool provides XYZ
+This repository contains the necessary 
 
 For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 ## Structure of this Repository
 
-`analysis/Exploratory Analysis.ipynb` 
+`Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
 - Formats the data into a pandas dataframe, where each row is a sentence
 - Generates descriptive statistics on the data and visualizes them for easy interpretability 
 
-In order to run the analysis, you need to download the CONLL2003 data and change the path (`conll_data_path`) to the folder:
+In order to run the analysis, you need to download the CONLL2003 data make sure to update `conll_data_path` to point to the correct directory on your machine:
 
-`conll_data_path = '/Users/michelle.morales@ibm.com/Desktop/NER-datasets-master/CONLL2003/'`
+`conll_data_path = '[path_to_conll_folder]/CONLL2003/'`
 
-If all the dependencies are installed, the notebook should run succesfully, to produce the following charts:
+If all the dependencies are installed, the notebook should run succesfully. The notebook includes a preprocessed dataframe to allow for further analyses. The dataframe has the following format:
 
-![Dataset Overive](images/)
+![Dataframe format](https://github.com/michellemorales/samsung_interview/blob/master/images/Dataframe%20Format.png)
 
+
+![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
+
+![Entity Distribution (https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Entity%20Distribution.png)
 
 
 
