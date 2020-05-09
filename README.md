@@ -8,14 +8,14 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 - [Overview of NER tool built](#Overview)
 - [How to set-up NER tool](#Set-up)
 - [How to run tool](#Running)
-- [Additional analysis](#Additional Analysis) - Jupyter notebook included for addiontal exploratory work
+- [Additional analysis](##Additional Analysis) - Jupyter notebook included for addiontal exploratory work
 
 # Overview
 # Set-up
 TODO
 - add requirements
 # Run-time
-# Additional Analysis
+## Additional Analysis
 
 `Exploratory Analysis.ipynb` 
 - Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
