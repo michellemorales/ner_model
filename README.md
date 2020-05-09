@@ -68,3 +68,5 @@ To understand the dataset the following charts are also created:
 
 
 
+CONLL2003 also includes German files, which should allow for the same approach using a different data source. 
+CONLL English is from the Reuters corpus, which is a collection of news stories. Because of the corpus does not span multiple domains (news, social media, emails,blog posts, etc.) it may cause the NER model to not generalize to new domains. Given our intended user for this model is our Data Broker client, we may want to re-consider retraining this with relevant domain data. 
