@@ -8,7 +8,7 @@ For questions please contact Michelle Morales: ms.morales3@gmail.com
 
 # Overview
 
-This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the CONLL2003 training dataset, validation and testing sets are used during evaluation.
+This repository provides the Samsung Next NER Tagger! The tagger is provided in an easy to run Docker container to enable a speedy set-up. The NER model is trained using the [CONLL2003 training dataset](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003), validation and testing sets are used during evaluation.
 
 ![Dataset Overview](https://github.com/michellemorales/samsung_interview/blob/master/images/CONLL%20Dataset%20Overview.png)
 
@@ -58,13 +58,15 @@ Do **not** forget to include quotes! The command will return the sentence tagged
 
 # More Resources & Discussion
 
+## Resources:
+
 The jupyter notebook that was used for training the model is included is also included in this repository. You can view it here:
 
 `Data Analysis and Development.ipynb`
 
 The notebook does the following:
 
-- Loads CONLL2003 dataset (https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
+- Loads CONLL2003 dataset
 - Formats the data into a pandas dataframe, where each row is a sentence (format is given in a screenshot below)
 - Generates descriptive statistics on the data and visualizes them for easy interpretability 
 - Trains the Bert NER transformer model using the CONLL training data
@@ -81,6 +83,16 @@ Then, download the CONLL2003 data and make sure to update `conll_data_path` to p
 
 If all the dependencies are installed, the notebook should run succesfully. 
 
+## Discussion
 
-CONLL2003 also includes German files, which should allow for the same approach using a different data source. 
-CONLL English is from the Reuters corpus, which is a collection of news stories. Because of the corpus does not span multiple domains (news, social media, emails,blog posts, etc.) it may cause the NER model to not generalize to new domains. Given our intended user for this model is our Data Broker client, we may want to re-consider retraining this with relevant domain data. 
+This NER model provides a great proof-of-concept for how to build an tagger. Some questions/thoughts:
+
+**1. What would you like to try next?**
+CONLL English is from the Reuters corpus, which is a collection of news stories. Because of the corpus does not span multiple domains (news, social media, emails,blog posts, etc.) it may cause the NER model to not generalize to new domains. Given our intended user for this model is our Data Broker client, we may want to re-consider retraining this with relevant domain data. As a first next step, I would like to evaluate its performane on a labeled dataset from a more informal domain, like Twitter.
+
+**2. Once we gather out own annotated data, could we reuse this model or would we create a new one?
+
+**3. We plan to expand our offering to multiple different langauges next year. Could we use a single model for multiple languages? Is there a way we could leverage our existing model for that?**
+
+CONLL2003 also includes German files, which should allow for the same approach using a different data source. However, that appraoch would require finding data a good deal of data in each new language in order to try and attain the same performance. Instead, we could try a 
+
